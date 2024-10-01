@@ -1,0 +1,54 @@
+#ava{
+    min-height: 500px;
+    background: url(../image/group_img.jpg) center /cover no-repeat;
+    position: relative;
+}
+
+#btn_back{
+    background-color: rgba(21, 20, 20, 0.8);
+    cursor: pointer;
+    color: #fff;
+
+    margin-top: 15px;
+    margin-left: 15px;
+
+    border: none;
+    border-radius: 10px;
+}
+
+#btn_back:hover{
+    background-color: rgba(65, 63, 63, 0.8);
+    color: #000;
+}
+
+#ava #Profile_img{
+    position: absolute;
+    bottom: -120px;
+    left: 70px;
+
+    max-width: 350px;
+    border-radius: 50%;
+}
+
+#ava #main_header{
+    position: absolute;
+    bottom: -120px;
+    left: 430px;
+
+    font-size: 50px;
+}
+
+.content{
+    margin: 150px 50px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.desc{
+    font-size: 20px;
+}
+
+.content #link_fb{
+    text-decoration: none;
+    color: #000;
+}

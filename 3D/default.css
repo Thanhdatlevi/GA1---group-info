@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.content{
+    margin: 0px 50px;
+}
+
+.content #main_heading{
+    text-align: center;
+    padding: 50px;
+
+    font-size: 50px;
+}
+
+#inf{
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#inf #group_img{
+    max-width: 600px;
+}
+
+#inf #inf_group{
+    font-size: 35px;
+    font-weight: 50px;
+    line-height: 60px;
+}
+
+#inf #list_mem{
+    margin-top: 30px;
+}
